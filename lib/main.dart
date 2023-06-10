@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterworkshop/Views/product_view.dart';
+import 'package:flutterworkshop/Views/loginpage.dart';
+
 
 // import 'loginpage.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-       home: ProductScreen(),
+       home: LoginPage(),
     );
   }
 }

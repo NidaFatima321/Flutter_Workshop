@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/Workshop/products_model.dart';
-import 'package:untitled/Workshop/products_service.dart';
+
+import '../Model/products_model.dart';
+import '../services/product_service.dart';
+
 
 class Products1 extends StatefulWidget {
   const Products1({Key? key}) : super(key: key);
@@ -10,7 +12,7 @@ class Products1 extends StatefulWidget {
 }
 
 class _Products1State extends State<Products1> {
-  ProductsService service1=ProductsService();
+  ProductService service1=ProductService();
   //not initialized yet value will arrive later.
   //an object of class Products
   late Products products;
